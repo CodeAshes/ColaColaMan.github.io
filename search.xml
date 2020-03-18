@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>My New Post</title>
+    <url>/2020/03/17/My-New-Post/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <tags>
+        <tag>A,B,C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown语法</title>
+    <url>/2020/03/17/mdGrammer/</url>
+    <content><![CDATA[<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>说明：本文档按Typora官方文档结构组织，Typora采用Github Flavored Markdown </p>
+<h2 id="Block-Elements"><a href="#Block-Elements" class="headerlink" title="Block Elements"></a>Block Elements</h2><h3 id="Paragraph-and-line-break"><a href="#Paragraph-and-line-break" class="headerlink" title="Paragraph and line break"></a>Paragraph and line break</h3><p>better to use <kbd>enter</kbd> making two single lines to begin a new Paragraph.</p>
+<h3 id="Headers"><a href="#Headers" class="headerlink" title="Headers"></a>Headers</h3><p>use from one to six <strong>#</strong> to differ the header level</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br></pre></td></tr></table></figure>
+<h3 id="Blockquotes"><a href="#Blockquotes" class="headerlink" title="Blockquotes"></a>Blockquotes</h3><p>use &gt; and support nestblocked block quote by continuing to write a sub &gt;</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="quote">&gt; 鲁迅说：</span></span><br><span class="line"><span class="quote">&gt; &gt; 刘和珍说：</span></span><br></pre></td></tr></table></figure>
+<h3 id="Lists"><a href="#Lists" class="headerlink" title="Lists"></a>Lists</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~ unordered list, use * or + or -</span><br><span class="line"><span class="bullet">* </span>item1</span><br><span class="line"><span class="bullet">* </span>item2</span><br><span class="line"></span><br><span class="line">~ ordered list</span><br><span class="line"><span class="bullet">1. </span>item1</span><br><span class="line"><span class="bullet">2. </span>item2</span><br><span class="line"></span><br><span class="line">~ task list ,useless and ignore</span><br></pre></td></tr></table></figure>
+<h3 id="Code-Blocks"><a href="#Code-Blocks" class="headerlink" title="Code Blocks"></a>Code Blocks</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">​<span class="code">```</span> java </span><br><span class="line"><span class="code">    code</span></span><br><span class="line">​</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">### Math Blocks</span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;latex</span><br><span class="line">~ use $$ to support Tex&#x2F;LaTex</span><br><span class="line">$$</span><br><span class="line">\mathbf&#123;V&#125;_1 \times \mathbf&#123;V&#125;_2 &#x3D;  \begin&#123;vmatrix&#125;</span><br><span class="line">\mathbf&#123;i&#125; &amp; \mathbf&#123;j&#125; &amp; \mathbf&#123;k&#125; \\</span><br><span class="line">\frac&#123;\partial X&#125;&#123;\partial u&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial u&#125; &amp; 0 \\</span><br><span class="line">\frac&#123;\partial X&#125;&#123;\partial v&#125; &amp;  \frac&#123;\partial Y&#125;&#123;\partial v&#125; &amp; 0 \\</span><br><span class="line">\end&#123;vmatrix&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+<p>find more about <a href="http://support.typora.io/Math/" target="_blank" rel="noopener">this</a></p>
+<h3 id="Tables"><a href="#Tables" class="headerlink" title="Tables"></a>Tables</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~ in second line to use :--, --:, :--: to make left, right, or center-aligned </span><br><span class="line">| header1 | header2 |</span><br><span class="line">|  :---    |   ---   |</span><br><span class="line">| content1|content2 |</span><br></pre></td></tr></table></figure>
+<h3 id="Footnotes"><a href="#Footnotes" class="headerlink" title="Footnotes"></a>Footnotes</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">“一览众山小”[^fn1]和“不识庐山真面目，只缘身在此山中”[^fn2]是学习的两种状态，它们是时刻共存的。</span><br><span class="line">[<span class="symbol">^fn1</span>]: <span class="link">出自杜甫的诗《泰山》</span></span><br><span class="line">[<span class="symbol">^fn2</span>]:<span class="link">出自苏轼的诗《题西林壁》</span></span><br></pre></td></tr></table></figure>
+<h3 id="Horizontal-Rules"><a href="#Horizontal-Rules" class="headerlink" title="Horizontal Rules"></a>Horizontal Rules</h3><p>use <em>*</em> or —- to draw a horizontal line.</p>
+<h3 id="YAML-Front-Matter"><a href="#YAML-Front-Matter" class="headerlink" title="YAML Front Matter"></a>YAML Front Matter</h3><p>find more about <a href="http://jekyllrb.com/docs/frontmatter/" target="_blank" rel="noopener">this</a></p>
+<h3 id="Table-of-Contents-TOC"><a href="#Table-of-Contents-TOC" class="headerlink" title="Table of Contents (TOC)"></a>Table of Contents (TOC)</h3><p>enter <strong>[toc]</strong> to make a catalog.</p>
+<h2 id="Span-Elements"><a href="#Span-Elements" class="headerlink" title="Span Elements"></a>Span Elements</h2><h3 id="Links"><a href="#Links" class="headerlink" title="Links"></a>Links</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~ Inline Links</span><br><span class="line">[<span class="string">Caffeine Uses, Effects &amp; Safety Information</span>](<span class="link">https://www.drugs.com/caffeine.html</span>)</span><br><span class="line"></span><br><span class="line">~ Internal Links:jump to the appointed headers</span><br><span class="line">You can refer to Section[<span class="string">Horizontal Rules</span>](<span class="link">#horizontal-rules</span>) in this eaasy.</span><br><span class="line"></span><br><span class="line">~ Reference Links</span><br><span class="line">example1:</span><br><span class="line"><span class="code">    This is [an example][id] reference-style link.</span></span><br><span class="line"><span class="code">    [id]: http://example.com/  "Optional Title Here"</span></span><br><span class="line">example2: omit the id and use name to cite</span><br><span class="line"><span class="code">	This is [an example][] reference-style link.</span></span><br><span class="line"><span class="code">    [an example]: http://example.com/  "Optional Title Here"</span></span><br></pre></td></tr></table></figure>
+<h3 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">I cannot stop to cry</span>](<span class="link">/cry.jpg</span>)</span><br></pre></td></tr></table></figure>
+<p>PS: about specify a URL prefix via editing YAML Front Matter while building website.</p>
+<h3 id="Emphasis-and-Strong"><a href="#Emphasis-and-Strong" class="headerlink" title="Emphasis and Strong"></a>Emphasis and Strong</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~ use * or _ to emphasis(to be italic)</span><br><span class="line"><span class="emphasis">*hello*</span> , <span class="emphasis">_good bye_</span></span><br><span class="line"></span><br><span class="line">~ use <span class="strong">** or __</span> to be strong</span><br><span class="line"><span class="strong">**hello**</span>, <span class="strong">__good bye__</span></span><br></pre></td></tr></table></figure>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~ write code within a normal paragraph</span><br><span class="line">Use the <span class="code">`printf()`</span> function</span><br></pre></td></tr></table></figure>
+<h3 id="Strikethrough"><a href="#Strikethrough" class="headerlink" title="Strikethrough"></a>Strikethrough</h3><p><code>~~Mistaken text.~~</code> becomes <del>Mistaken text.</del></p>
+<h3 id="Inline-Math"><a href="#Inline-Math" class="headerlink" title="Inline Math"></a>Inline Math</h3><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">$\lim_&#123;x \to \infty&#125; \exp(-x) = 0$</span><br></pre></td></tr></table></figure>
+<h3 id="Subscript-Superscript-Highlight"><a href="#Subscript-Superscript-Highlight" class="headerlink" title="Subscript, Superscript, Highlight"></a>Subscript, Superscript, Highlight</h3><p>just support in Typora if you enable it in setting.</p>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><h3 id="Underline"><a href="#Underline" class="headerlink" title="Underline"></a>Underline</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">u</span>&gt;</span>s<span class="tag">&lt;/<span class="name">u</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="Embed-Contents"><a href="#Embed-Contents" class="headerlink" title="Embed Contents"></a>Embed Contents</h3><iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><p><code>&lt;video src=&quot;x.mp4&quot;/&gt;</code></p>
+<h3 id="More"><a href="#More" class="headerlink" title="More"></a>More</h3><p>HTML Tag、转义、公式</p>
+<p>mermaid: <a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">Doc</a>, online Editor</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">gantt</span><br><span class="line">dateFormat  YY-MM-DD</span><br><span class="line">title Adding GANTT diagram to mermaid</span><br><span class="line">excludes weekdays 14-01-10</span><br><span class="line"></span><br><span class="line">section A section</span><br><span class="line">Completed task            :done,    des1, 14-01-06,14-01-08</span><br><span class="line">Active task               :active,  des2, 14-01-09, 3d</span><br><span class="line">Future task               :         des3, after des2, 5d</span><br><span class="line">Future task2               :         des4, 13-01-09, 50000000d</span><br></pre></td></tr></table></figure>
+<h3 id="Math"><a href="#Math" class="headerlink" title="Math"></a>Math</h3><p>向量积</p>
+<script type="math/tex; mode=display">
+\mathbf{K}_1 \times \mathbf{V}_2</script><p>三阶矩阵</p>
+<script type="math/tex; mode=display">
+\begin{vmatrix}
+\mathbf{p} & \mathbf{q} & \mathbf{r} \\
+\frac{\partial M}{\partial p} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}</script><p>分段函数</p>
+<script type="math/tex; mode=display">
+函数名=\begin{cases}
+公式1 & 条件1 \\
+公式2 & 条件2 \\
+公式3 & 条件3 
+\end{cases}</script>]]></content>
+      <tags>
+        <tag>A</tag>
+        <tag>B</tag>
+        <tag>C</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/03/17/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
